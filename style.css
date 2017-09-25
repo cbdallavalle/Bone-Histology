@@ -1,0 +1,124 @@
+body {
+  background-color: #002F32;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h1 {
+  color: #898a8c;
+  text-shadow: 5px 5px #0e0e0f;
+  letter-spacing: 0.1em;
+  font-size: 300%;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  color: #c6d0d1;
+  text-shadow: 2px 2px #2f3033;
+}
+
+h6 {
+  color: #c6d0d1;
+  text-shadow: 2px 2px #2f3033;
+  font-size: 120%;
+  margin: -30px 0px 20px 0px;
+  text-align: left
+}
+
+#example2 {
+  margin: 30px 0px 20px 0px;
+}
+
+.examplepics {
+  float: right;
+  display: inline-block;
+}
+
+.intro, .characteristics, #examplep {
+  text-align: left;
+  color: #b5b5bf;
+  padding: 20px;
+}
+
+h3 {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+.mid {
+  font-weight: heavy;
+  font-size: 150%;
+  line-height: 1px;
+  color: #b5b5bf;
+}
+
+a {
+  font-size: 120%;
+  color: #c67995;
+  }
+
+.thinsection {
+  height: 100px;
+  float: center;
+  margin: -250px 0px 0px 300px;
+  border: 3px solid;
+  padding: 3px;
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0px 0px 0px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow {
+  margin: -75px 0px 0px 450px;
+}
+
+.bone {
+  height: 100px;
+  float: center;
+  margin: -250px 0px 0px 120px;
+  border: 3px solid;
+  padding: 3px;
+}
+
+#microscope {
+  font-size: 120%;
+  color: #b5b5bf;
+}
+
+.study {
+  margin: 40px 0px 40px 130px;
+}
+
+h5, #book {
+  text-align: center;
+  font-size: 170%;
+  color: #898a8c;
+  text-shadow: 5px 5px #0e0e0f;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+  color: #b5b5bf;
+}
+
+.contents {
+  line-height: 30px;
+}
+
+.results {
+  color: #b5b5bf;
+  line-height: 25px;
+}
