@@ -1,52 +1,73 @@
 body {
-  background-color: #002F32;
+  background-color: #e6ebf4;
   font-family: Helvetica;
   text-align: center;
+ 
 }
 
 h1 {
-  color: #898a8c;
-  text-shadow: 5px 5px #0e0e0f;
-  letter-spacing: 0.1em;
+  color: #222223;
   font-size: 300%;
   text-align: center;
+  font-family: Courier;
+  padding-top: 30px;
+  
 }
 
-h2, h3, h4 {
-  color: #c6d0d1;
-  text-shadow: 2px 2px #2f3033;
-}
 
-h6 {
-  color: #c6d0d1;
-  text-shadow: 2px 2px #2f3033;
-  font-size: 120%;
-  margin: -30px 0px 20px 0px;
-  text-align: left
-}
-
-#example2 {
-  margin: 30px 0px 20px 0px;
-}
-
-.examplepics {
-  float: right;
+.backgroundImg {
+  float: left;
   display: inline-block;
+  
+}
+.backgroundImg1 {
+  float: left;
+  display: inline-block;
+  margin: 885px 0px 0px -299px;
+  padding-right: 30px;
 }
 
-.intro, .characteristics, #examplep {
-  text-align: left;
-  color: #b5b5bf;
-  padding: 20px;
+.backgroundImg2 {
+  float: left;
+  display: inline-block;
+  margin: 1772px 0px 0px -329px;
+  padding-right: 37x;
 }
 
-h3 {
-  text-align: left;
+.backgroundImg3 {
+  float: left;
+  display: inline-block;
+  margin: 2660px 50px 0px -329px;
+  padding-right: 30px;
 }
 
-ul {
-  text-align: left;
+.backgroundImg4 {
+  float: left;
+  display: inline-block;
+  margin: 3549px 0px 0px -379px;
+  padding-right: 30px;
 }
+
+
+h2 {
+  font-family: Courier;
+  size: 200px;
+}
+
+.introP {
+  width: 900px;
+  margin-left: 370px;
+
+}
+
+.introImg {
+  border: 2px solid black;
+}
+
+.study {
+  size: 500px;
+}
+
 
 .mid {
   font-weight: heavy;
@@ -60,13 +81,7 @@ a {
   color: #c67995;
   }
 
-.thinsection {
-  height: 100px;
-  float: center;
-  margin: -250px 0px 0px 300px;
-  border: 3px solid;
-  padding: 3px;
-}
+
 i {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -81,44 +96,90 @@ i {
 }
 
 .arrow {
-  margin: -75px 0px 0px 450px;
+  margin: -110px 0px 50px 0px;
+}
+
+
+.thinsection {
+  height: 100px;
+  float: center;
+  margin: -150px 0px 0px -270px;
+  border: 2px solid black;
 }
 
 .bone {
   height: 100px;
   float: center;
-  margin: -250px 0px 0px 120px;
+  margin: -115px -300px 0px 0px;
   border: 3px solid;
   padding: 3px;
 }
 
-#microscope {
-  font-size: 120%;
-  color: #b5b5bf;
+
+.materials {
+  margin: 0px 0px 0px 0px;
 }
 
-.study {
-  margin: 40px 0px 40px 130px;
+h3 {
+  margin: 20px 0px 300px 0px;
 }
 
-h5, #book {
-  text-align: center;
-  font-size: 170%;
-  color: #898a8c;
-  text-shadow: 5px 5px #0e0e0f;
+.studyList {
+  width: 200px;
+  margin: -280px 400px -0px 0px;
+  float: right;
 }
 
-ol {
-  display: inline-block;
+.charList {
+  width: 200px;
+  margin: 0px 400px 0px 0px;
+  float: right;
+  display: inline;
+}
+
+.medullaryDiv {
+  margin: 150px 0px 0px 0px;
+}
+
+.characteristicsP {
+  width: 900px;
+  margin-left: 370px;
+}
+
+.characteristics4 {
+  border: 3px solid;
+  width: 600px;
+  margin: 10px 0px;
+}
+
+#vasculatureImg {
+  width: 800px;
+}
+
+#turtleImg {
+  float: right;
+  width: 600px;
+}
+
+h5 {
   text-align: left;
-  color: #b5b5bf;
-}
-
-.contents {
-  line-height: 30px;
+  margin-left:50px;
 }
 
 .results {
-  color: #b5b5bf;
-  line-height: 25px;
+  text-aling: left;
+}
+
+#turtleImg {
+  float: right;
+  width: 330px;
+  margin: -60px 40px 0px 0px;
+  border: 2px solid black;
+}
+
+#crocImg {
+  float: right;
+  width: 330px;
+  border: 2px solid black;
+  margin: 0px 40px;
 }
